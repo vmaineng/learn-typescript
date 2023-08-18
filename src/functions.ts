@@ -1,4 +1,4 @@
-function calculateTax(income: number, taxYear: number): number { //stating we expect a number for a return
+function calculateTax(income: number, taxYear = 2022): number { //stating we expect a number for a return
 
     if (taxYear < 2022) 
     return income * 1.5
@@ -8,7 +8,10 @@ function calculateTax(income: number, taxYear: number): number { //stating we ex
 }
 
 calculateTax(10_000, 2022)
+// calculateTax(10_000, 2022)
 
 //always properly annonate for functions
 //specificy return type
 
+//taxYear? = optional if it is not defined
+//taxYear = 2022 = make it default

@@ -1,17 +1,16 @@
-//objects in JS are dynamic, their shape can cchange throughout 
+//objects in JS are dynamic, their shape can cchange throughout
 
-let employee : {
-    readonly id: number,
-    name: string, 
-    retire: (date: Date) => void //don't want to reutrn any value so return void
-}= {  id: 1,
-     name: "Mosh",
-    retire: (date: Date) => {
-        console.log(date);
-    }}; //initialize it to Mosh 
-
-
-
+let employee: {
+  readonly id: number;
+  name: string;
+  retire: (date: Date) => void; //don't want to reutrn any value so return void
+} = {
+  id: 1,
+  name: "Mosh",
+  retire: (date: Date) => {
+    console.log(date);
+  },
+}; //initialize it to Mosh
 
 // employee.name = 'Mosh';
 

@@ -9,4 +9,4 @@ let numbers: number[] = []; //have to state number array
 
 //intellisense - can see all the methods listed
 
-numbers.forEach(n => n.)
+// numbers.forEach(n => n.)

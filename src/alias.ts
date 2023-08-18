@@ -8,7 +8,7 @@ type Employee = {
     retire: (date: Date) => void;
 }
 
-let employee: Employee = {
+let employees : Employee = {
     id: 1,
     name: "Mosh",
     retire: (date: Date) => {
